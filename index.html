@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript in Example With Using Function</title>
+</head>
+<body>
+    <button onclick="bulbon()">ON</button>
+<img src="off.png" height="600px" width="600px" alt="" id="bulb">
+<button onclick="bulboff()">OFF</button>
+<button onclick="hidebulb()">Hide Bulb</button>
+<button onclick="showbulb()">Show Bulb</button>
+
+
+
+
+<script>
+function bulbon() {
+document.getElementById('bulb').src = "on.png" }
+function bulboff() { document.getElementById('bulb').src = "off.png" }
+function hidebulb() { document.getElementById('bulb').style.display = 'none'; }
+function showbulb() { document.getElementById('bulb').style.display = 'block'; }
+</script>
+</body>
+</html>
